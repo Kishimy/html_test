@@ -2,23 +2,23 @@
  @font-face {
     font-family:"Roboto-Regular";
     font-style: normal;
-    src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
   }
   @font-face {
     font-family:"Roboto-Regular";
     font-style: normal;
     font-weight: 500;
-    src: url("./fonts/Roboto-Medium.ttf") format("truetype");
+    src: url("../fonts/Roboto-Medium.ttf") format("truetype");
   }
   @font-face {
     font-family:"sfns-display-bold";
     font-style: bold;
-    src: url("./fonts/sfns-display-bold.ttf") format("truetype");
+    src: url("../fonts/sfns-display-bold.ttf") format("truetype");
   }
   @font-face {
     font-family:"cabin";
     font-style: bold;
-    src: url("./fonts/cabin.ttf") format("truetype");
+    src: url("../fonts/cabin.ttf") format("truetype");
   }           
   * {
       box-sizing: border-box;
@@ -205,7 +205,7 @@
   .carouselList__item:last-child {
       margin-right: 0;
   }
-  .carouselList__item__indicator {
+  .carouselList__item_indicator {
       display:none;
       background-color: #FFFFFF;
       padding: 18px 0px 20px;
